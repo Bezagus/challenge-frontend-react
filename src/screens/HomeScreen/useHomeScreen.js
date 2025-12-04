@@ -11,10 +11,10 @@ export const useHomeScreen = () => {
   const [characterToDelete, setCharacterToDelete] = useState(null);
 
   useEffect(() => {
-    if (results.length === 0 && !loading) {
+    if (results.length === 0 && !loading && !error) {
       dispatch(fetchPeople());
     }
-  }, [dispatch, results.length, loading]);
+  }, [dispatch, results.length, loading, error]);
 
   const characters = useMemo(() => {
     return results.map((char, index) => ({
