@@ -130,7 +130,7 @@
   }
 
   .modal-content {
-    @apply fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-lg mx-4 animate-in fade-in zoom-in-95 duration-200;
+    @apply fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-lg mx-0.5 animate-in fade-in zoom-in-95 duration-200 max-h-[90vh] overflow-y-auto;
   }
 
   .button-hover {

@@ -16,7 +16,7 @@ export default function ConfirmDeleteModal({
       <div className="modal-overlay" onClick={handleBackdropClick} />
 
       <div className="modal-content">
-        <div className="bg-card border border-border rounded-2xl shadow-2xl p-8 max-w-md">
+        <div className="bg-card border border-border rounded-2xl shadow-2xl p-3 sm:p-8 max-w-md">
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-destructive/10 rounded-xl flex items-center justify-center">
